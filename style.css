@@ -1,0 +1,140 @@
+body{
+    font-size: 'PT Sans', sans-serif;
+    background-color: #252529;
+    color: white;
+    line-height: 1.6;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+#showcase {
+    padding: 0;
+    margin: 0;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* Ensures the image is centered */
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden; /* This hides any overflow, but you already have it once */
+}
+
+    
+
+
+.homepage{
+    margin-top: 24vh;
+    
+}
+h1{
+    font-size: 4rem;
+    margin-bottom: 0%;
+    padding-top: 60px;
+}
+h2{
+    font-size: 2rem;
+    
+}
+p{
+    margin: 30px;
+    font-size: 1.3rem;
+
+}
+#navbar{
+    height: 40px;
+    width: 100%;
+    color: black;
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+}
+#navbar ul {
+    display: inline;
+    color: white;
+    
+}
+#navbar li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    float: left;
+    padding: 8px 0px;
+    
+}
+.cf li:hover{
+    background-color: darkgray;
+}
+.homepage{
+    text-align: center;
+    margin: 0%;
+    
+}
+h3{
+    
+}
+
+
+
+
+.footer {
+    background: #111;
+    padding: 30px 20px;
+     
+
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 3px;
+    border-bottom: 2px dotted gray; /* Adds a bottom border */
+    padding-bottom: 5px; /* Adds space between the text and the border */
+    display: inline-block; /* Ensures the border only spans the text width */
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 160px; /* Increased gap between columns */
+    max-width: 1200px;
+    
+    
+}
+#footerbottom{
+    text-align: center;
+    padding-top: 10px;
+    background-color: #252529;
+}
+
